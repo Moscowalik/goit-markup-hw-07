@@ -1,0 +1,30 @@
+.advantage {
+  display: flex;
+}
+.advantage__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.advantage__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: $main-background-color;
+  margin-bottom: 30px;
+}
+
+.advantage__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  color: $primary-text-color;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantage__text {
+  color: $text-color;
+}
